@@ -1,0 +1,37 @@
+.content{
+  margin-top: 50px;
+}
+
+// Global styles
+ion-app {
+  // Subtle background pattern
+  background: linear-gradient(
+    135deg,
+    var(--ion-color-primary-tint) 0%,
+    var(--ion-color-secondary-tint) 100%
+  );
+}
+
+.background-container {
+  min-height: 100%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.95); // Semi-transparent white
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+// Style utility classes
+.primary-bg {
+  background-color: var(--ion-color-primary);
+  color: var(--ion-color-primary-contrast);
+}
+
+.secondary-bg {
+  background-color: var(--ion-color-secondary);
+  color: var(--ion-color-secondary-contrast);
+}
+
+.tertiary-bg {
+  background-color: var(--ion-color-tertiary);
+  color: var(--ion-color-tertiary-contrast);
+}

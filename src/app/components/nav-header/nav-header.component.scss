@@ -1,0 +1,21 @@
+ion-header {
+    transition: all 0.3s ease-in-out;
+    
+    &.header-scrolled {
+      --background: transparent;
+      background: transparent;
+      
+      ion-toolbar {
+        --background: transparent;
+        background: transparent;
+      }
+    }
+  }
+  
+  .company-name {
+    transition: opacity 0.3s ease-in-out;
+    
+    &.hide-text {
+      opacity: 0;
+    }
+  }

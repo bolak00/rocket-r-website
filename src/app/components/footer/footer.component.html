@@ -1,0 +1,100 @@
+<ion-footer class="ion-no-border">
+  <ion-grid>
+    <!-- Main Accordion for entire footer -->
+    <ion-accordion-group>
+      <ion-accordion value="footer">
+        <!-- Header that's always visible -->
+        <ion-item slot="header" class="footer-header">
+          <ion-row class="ion-justify-content-center ion-align-items-center" style="width: 100%">
+            <ion-col size="12" size-md="4">
+              <h4>Umut Agrarisch Bedrijf</h4>
+            </ion-col>
+            <ion-col size="12" size-md="4" class="ion-hide-md-down">
+              <h4>Veelgestelde vragen</h4>
+            </ion-col>
+          </ion-row>
+        </ion-item>
+
+        <!-- Expandable content -->
+        <div slot="content">
+          <ion-row class="ion-padding ion-justify-content-center">
+            <!-- Contact Info Section -->
+            <ion-col size="12" size-md="4">
+              <ion-list lines="none" class="ion-no-padding">
+                <ion-item>
+                  <ion-icon name="location-outline" slot="start" color="dark"></ion-icon>
+                  <ion-label class="ion-text-wrap">
+                    Professor Vitringastraat 15
+                    8801 DK, Franeker
+                  </ion-label>
+                </ion-item>
+
+                <ion-item>
+                  <ion-icon name="call-outline" slot="start" color="dark"></ion-icon>
+                  <ion-label>
+                    +31 0517-999-000
+                  </ion-label>
+                </ion-item>
+
+                <ion-item>
+                  <ion-icon name="mail-outline" slot="start" color="dark"></ion-icon>
+                  <ion-label>
+                    info&#64;umutagrarisch.nl
+                  </ion-label>
+                </ion-item>
+
+                <ion-item>
+                  <ion-icon name="business-outline" slot="start" color="dark"></ion-icon>
+                  <ion-label>
+                    KVK: 81428421
+                  </ion-label>
+                </ion-item>
+              </ion-list>
+            </ion-col>
+
+            <!-- FAQ Section -->
+            <ion-col size="0" size-md="4" class="ion-hide-md-down">
+              <ion-accordion-group class="ion-no-padding faq-group">
+                <ion-accordion class="faq-item">
+                  <ion-item slot="header" class="ion-no-padding">
+                    <ion-label>Wat zijn jullie werkuren?</ion-label>
+                  </ion-item>
+                  <div slot="content" class="ion-padding">
+                    Wij zijn beschikbaar van maandag t/m vrijdag van 9:00 tot 17:00.
+                  </div>
+                </ion-accordion>
+
+                <ion-accordion class="faq-item">
+                  <ion-item slot="header" class="ion-no-padding">
+                    <ion-label>Hoe kan ik contact opnemen?</ion-label>
+                  </ion-item>
+                  <div slot="content" class="ion-padding">
+                    U kunt ons bereiken via email, telefoon of het contactformulier op onze website.
+                  </div>
+                </ion-accordion>
+
+                <ion-accordion class="faq-item">
+                  <ion-item slot="header" class="ion-no-padding">
+                    <ion-label>Wat zijn de kosten?</ion-label>
+                  </ion-item>
+                  <div slot="content" class="ion-padding">
+                    De kosten zijn afhankelijk van uw specifieke wensen. Neem contact op voor een offerte op maat.
+                  </div>
+                </ion-accordion>
+              </ion-accordion-group>
+            </ion-col>
+          </ion-row>
+        </div>
+      </ion-accordion>
+    </ion-accordion-group>
+
+    <!-- Copyright Section (Outside accordion to always show) -->
+    <ion-row class="ion-padding ion-text-center ion-hide-md-down">
+      <ion-col>
+        <ion-text color="medium">
+          <small>&copy; 2025 Umut Agrarisch Bedrijf. Alle rechten voorbehouden.</small>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-footer>

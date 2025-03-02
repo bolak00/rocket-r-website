@@ -1,0 +1,32 @@
+ion-footer {
+  ion-grid {
+    background: var(--ion-color-light);
+  }
+
+  ion-item {
+    --background: transparent;
+    --padding-start: 0;
+
+    ion-label {
+      color: var(--ion-color-medium);
+    }
+  }
+
+  ion-button {
+    --padding-start: 8px;
+    --padding-end: 8px;
+  }
+}
+
+.faq-item {
+  margin-bottom: 8px;
+}
+
+.faq-item ion-item {
+  --padding-start: 16px;
+  --padding-end: 16px;
+}
+
+.faq-group ion-accordion:last-child {
+  margin-bottom: 0;
+}
