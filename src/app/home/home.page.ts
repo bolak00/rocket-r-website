@@ -32,10 +32,10 @@ export class HomePage {
     private toastController: ToastController
   ) {}
 
-  scrollTo(elementId: string) {
+  scrollToElement(elementId: string): void {
     const element = document.getElementById(elementId);
     if (element) {
-      this.content.scrollToPoint(0, element.offsetTop, 500);
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }
 
@@ -156,4 +156,6 @@ export class HomePage {
       }
     }
   }
+
+  protected readonly scroll = scroll;
 }
