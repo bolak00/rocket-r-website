@@ -3,10 +3,10 @@
     <!-- Logo section -->
     <ion-buttons slot="start">
       <ion-button>
-        <ion-img src="assets/icon/favicon.png" [alt]="'Amet Tsengel'" class="logo-img" style="width: 60px; height: 60px; opacity: 0.5"></ion-img>
+        <ion-img src="assets/icon/favicon.png" [alt]="'Rocket R'" class="logo-img" style="width: 60px; height: 60px; opacity: 0.5"></ion-img>
       </ion-button>
       <ion-text>
-        <h3 class="ion-padding-start">Amet Tsengel</h3>
+        <h3 class="ion-padding-start">Rocket R</h3>
       </ion-text>
     </ion-buttons>
 
@@ -15,7 +15,7 @@
       <ion-button color="dark" (click)="scrollToElement('home')">Home</ion-button>
       <ion-button color="dark" (click)="scrollToElement('diensten')">Diensten</ion-button>
       <ion-button color="dark" (click)="scrollToElement('vacatures')">Vacatures</ion-button>
-      <ion-button color="dark" (click)="scrollToElement('contact')">Contact</ion-button>
+      <ion-button color="dark" (click)="scrollToElement('contacts')">Contact</ion-button>
     </ion-buttons>
 
     <!-- Menu button - mobile -->
@@ -30,7 +30,7 @@
 <ion-menu contentId="main-content">
   <ion-header>
     <ion-toolbar>
-      <ion-title>Amet Tsengel</ion-title>
+      <ion-title>Rocket R</ion-title>
     </ion-toolbar>
   </ion-header>
   <ion-content class="ion-padding">
@@ -41,7 +41,7 @@
       <ion-item button (click)="scrollToElement('diensten'); menuController.close()">
         <ion-label>Diensten</ion-label>
       </ion-item>
-      <ion-item button (click)="scrollToElement('contact'); menuController.close()">
+      <ion-item button (click)="scrollToElement('contacts'); menuController.close()">
         <ion-label>Contact</ion-label>
       </ion-item>
     </ion-list>
